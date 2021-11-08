@@ -1,0 +1,1 @@
+hey, trying out the https://nataliecardot.medium.com/easily-deploy-a-create-react-app-project-to-github-pages-280529adb086 method.
