@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sun-ruiheng.github.io/Copy-Cat",
-  "name": "copycat",
+  "homepage": "https://sun-ruiheng.github.io/Copy-Cat/",
+  "name": "Copy-Cat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rd /s /q docs && ren build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
